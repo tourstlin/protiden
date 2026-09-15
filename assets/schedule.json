@@ -1,0 +1,93 @@
+[
+  {
+    "day": 0,
+    "start": 1,
+    "end": 2,
+    "course": "高等数学（上）",
+    "room": "A3-403"
+  },
+  {
+    "day": 0,
+    "start": 3,
+    "end": 4,
+    "course": "程序设计基础",
+    "room": "机房十二"
+  },
+  {
+    "day": 0,
+    "start": 5,
+    "end": 6,
+    "course": "体育（篮球）",
+    "room": "西区篮球场"
+  },
+  {
+    "day": 1,
+    "start": 1,
+    "end": 2,
+    "course": "Linux 操作系统",
+    "room": "机房二"
+  },
+  {
+    "day": 1,
+    "start": 3,
+    "end": 4,
+    "course": "Linux 操作系统",
+    "room": "机房二"
+  },
+  {
+    "day": 1,
+    "start": 5,
+    "end": 6,
+    "course": "线性代数",
+    "room": "B2-403"
+  },
+  {
+    "day": 1,
+    "start": 7,
+    "end": 8,
+    "course": "大学物理",
+    "room": "A3-503"
+  },
+  {
+    "day": 2,
+    "start": 9,
+    "end": 10,
+    "course": "数字电子技术",
+    "room": "A1-202"
+  },
+  {
+    "day": 3,
+    "start": 7,
+    "end": 8,
+    "course": "大学英语",
+    "room": "A3-301"
+  },
+  {
+    "day": 4,
+    "start": 1,
+    "end": 2,
+    "course": "单片机原理",
+    "room": "机房十二"
+  },
+  {
+    "day": 4,
+    "start": 3,
+    "end": 4,
+    "course": "单片机原理",
+    "room": "D2-304"
+  },
+  {
+    "day": 4,
+    "start": 7,
+    "end": 8,
+    "course": "复变函数",
+    "room": "A3-503"
+  },
+  {
+    "day": 4,
+    "start": 9,
+    "end": 10,
+    "course": "数字电子技术",
+    "room": "A1-202"
+  }
+]

@@ -1,0 +1,40 @@
+ProTaiden · 智能台灯控制台
+Copyright 2026 ProTaiden contributors
+
+本产品包含以下第三方组件。标注「随仓库分发」的会随仓库一起提供，
+其余请按给出的地址自行获取；各组件均以其原许可发布，本项目不改变其许可。
+
+1. Google MediaPipe 手势识别（Apache License 2.0）
+   https://github.com/google-ai-edge/mediapipe
+   本项目使用的 palm detection / hand landmark 模型源自 MediaPipe，
+   转换后的 .rknn 产物由社区工程提供（见下条），请自行下载。
+
+2. w13364/rknn-mediapipe（作者未声明许可证）
+   https://github.com/w13364/rknn-mediapipe
+   本项目参考了其转换产物与后处理思路，但**不分发**其代码与模型文件。
+   商业使用前请先联系原作者取得授权。
+
+3. Rockchip RKNN 运行时与工具（Rockchip 许可）
+   https://github.com/airockchip/rknn-toolkit2
+   librknnrt.so 由 npu/fetch_models.sh 从官方仓库下载，不随仓库分发。
+
+4. 运行期依赖（pip / 系统包）
+   CustomTkinter (MIT) · pyserial (BSD-3) · Pillow (HPND) ·
+   OpenCV (Apache-2.0) · numpy (BSD-3) · mpv (GPLv2+，以子进程方式调用)
+
+--- 下位机固件相关（firmware/）---
+
+5. STM32 标准外设库 V3.5.0 与 CMSIS（MCD-ST Liberty SW License Agreement V2）
+   https://www.st.com/en/embedded-software/stm32-standard-peripheral-libraries.html
+   **随仓库分发**：firmware/Library/（46 个文件）与 firmware/Start/（启动文件、
+   core_cm3、stm32f10x.h 等）。这些文件保留了原始的 ST 版权声明，未作修改。
+   ST 许可允许在保留版权声明的前提下用于与 ST 芯片相关的开发。
+
+6. OLED 显示驱动模板（作者与许可未知）
+   firmware/Hardware/OLED.c / OLED.h / OLED_Font.h
+   这是常见的 STM32 软件 I2C OLED 教程模板（非本项目原创），
+   在教程圈广泛流传、原始出处难以追溯。**保留其原始状态**，未声明本项目版权。
+   如需商用或再发布，建议替换为自研驱动或自行确认原作者授权。
+
+7. 下位机固件里由本项目编写的部分（main.c、PWM、Serial、DHT-11、BEEP、Delay）
+   版权归本项目所有，以 Apache-2.0 发布（同上层软件）。

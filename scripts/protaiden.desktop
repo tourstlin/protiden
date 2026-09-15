@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ProTaiden 智能台灯
+Comment=全屏触控台灯控制台（NPU 手势调光 / 温湿度 / 音乐 / 课表）
+Exec=/home/pi/protaiden/scripts/protaiden-start.sh
+Icon=/home/pi/protaiden/assets/logo.png
+Terminal=false
+Categories=Utility;
+X-GNOME-Autostart-enabled=true

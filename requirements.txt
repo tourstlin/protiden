@@ -1,0 +1,13 @@
+# 主程序（UI / 串口 / 图像）
+customtkinter>=5.2.2
+pyserial>=3.5
+Pillow>=9.0
+opencv-python>=4.5        # 板上也可用 apt 的 python3-opencv
+numpy>=1.21
+
+# 手势推理后端二选一：
+mediapipe>=0.10           # 后端 A：CPU（x86 开发机 / ARM 板都能跑）
+# 后端 B：RKNN（NPU）不需要 pip 包——用 npu/rknn_lite_ctypes.py（纯 ctypes）
+
+# 音乐播放后端：外部命令 mpv（非 pip）
+#   Debian/Ubuntu: sudo apt install mpv

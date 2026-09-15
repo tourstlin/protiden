@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.log
+# 模型与运行时（体积大且有各自的许可，用 npu/fetch_models.sh 下载）
+npu/models/
+npu/runtime/
+*.rknn
+*.tflite
+*.so
+*.whl
+# 本地资源 / 个人数据
+assets/bg_local.jpg
+.lamp_bt_mac
+*.bak*
+NUL
+# Keil MDK 编译产物 / 个人窗口布局（源码仓库不需要）
+firmware/Objects/
+firmware/Listings/
+firmware/*.uvoptx
+firmware/*.uvguix.*
+*.axf
+*.build_log.htm
